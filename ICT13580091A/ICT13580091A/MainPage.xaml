@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ICT13580091A"
+             x:Class="ICT13580091A.MainPage"
+             BackgroundColor="Teal"
+             Padding="20,20,20,20">
+    <ScrollView>
+        <StackLayout
+            BackgroundColor="Aqua"
+            Orientation="Vertical">
+            <Label
+                Text="Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello world"
+                BackgroundColor="Yellow"
+                TextColor="Blue"
+                LineBreakMode="TailTruncation"
+                x:Name="firstNameLabel"/>
+            <Label
+                Text="Sopita Maneewan"
+                BackgroundColor="Fuchsia"
+                x:Name="lastNameLabel"/>
+            <Entry
+                Placeholder="กรุณากรอกชื่อ"
+                Keyboard="Text"
+                x:Name="fristNameEntry"/>
+            <Button
+                Text="ok"
+                BackgroundColor="Silver"
+                x:Name="okButton"/>
+            
+            <DatePicker/>
+
+            <TimePicker/>
+
+            <Picker  
+                x:Name="genderPicker"
+                Title="กรุณาเลือกเพศ"/>
+
+            <Label
+                x:Name="valueLabel"/>
+
+            <Slider
+               Maximum="100"
+                Minimum="0"
+                Value="50"
+                x:Name="mySlider"/>
+
+            <Stepper
+                Maximum="10"
+                Minimum="0"
+                Value="0"
+                Increment="1"
+                x:Name="myStepper"/>
+
+            <Switch
+              IsToggled="False"/>
+
+            <Image
+                Source="nickk.png"
+                HeightRequest="100"/>
+
+            <WebView 
+                HeightRequest="500"
+                Source="https://www.youtube.com/watch?v=4JipHEz53sU"/>
+
+        </StackLayout>
+               </ScrollView>
+    
+</ContentPage>
