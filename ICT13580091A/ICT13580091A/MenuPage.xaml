@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ICT13580091A.MenuPage"
+              Title="Menu"
+             
+    Icon="icons8-Menu_40 2">>
+   
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="200" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <BoxView
+            Color="#D32F2F" />
+        <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="End"
+            Margin="10">
+            <Image
+                Source="https://static01.nyt.com/images/2017/10/16/t-magazine/nicki-minaj-slide-P48N/nicki-minaj-slide-P48N-blog427.jpg"
+                HeightRequest="100"
+                WidthRequest="100"
+                HorizontalOptions="Center"
+                />
+            <Label
+                Text="Miss Sopita Maneewan"
+                HorizontalTextAlignment="Center"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="15" />
+            <Label
+                Text="Student's ID: 13580091"
+                HorizontalTextAlignment="Center"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="15" />
+            <Label
+                Text="E-mail: saiias150638@gmail.com"
+                HorizontalTextAlignment="Center"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="15" />
+        </StackLayout>
+        <BoxView
+            Grid.Row="1"
+            Color="#CFD8DC" />
+        <ScrollView
+            Grid.Row="1">
+            <StackLayout
+                Orientation="Vertical"
+                Padding="20">
+                <Label
+                    Text="VIEW"
+                    TextColor="Black"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold" />
+                <Button
+                    x:Name="viewButton"
+                    Text="All View"
+                    TextColor="White"
+                    BackgroundColor="#EF5350" />
+                <BoxView
+                    Color="White"
+                    HeightRequest="3"
+                    Margin="10" />
+                <Label
+                    Text="LAYOUT"
+                    TextColor="Black"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold" />
+                <Button
+                    x:Name="stackButton"
+                    Text="Stack Page"
+                    TextColor="White"
+                    BackgroundColor="#EF5350" />
+                <Button
+                    x:Name="gridButton"
+                    Text="Grid Layout"
+                    TextColor="White"
+                    BackgroundColor="#E57373" />
+                <Button
+                    x:Name="absoluteButton"
+                    Text="Absolute Layout"
+                    TextColor="White"
+                    BackgroundColor="#EF9A9A" />
+                <BoxView
+                    Color="White"
+                    HeightRequest="3"
+                    Margin="10" />
+                <Label
+                    Text="PAGE"
+                    TextColor="Black"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold" />
+                <Button
+                    x:Name="contentButton"
+                    Text="Content View"
+                    TextColor="White"
+                    BackgroundColor="#EF5350" />
+                <Button
+                    x:Name="navigationButton"
+                    Text="Navigation Page"
+                    TextColor="White"
+                    BackgroundColor="#E57373" />
+                <Button
+                    x:Name="tabButton"
+                    Text="Tabbed Page"
+                    TextColor="White"
+                    BackgroundColor="#EF9A9A" />
+                <Button
+                    x:Name="carouseButton"
+                    Text="Carousel Page"
+                    TextColor="White"
+                    BackgroundColor="Gray" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

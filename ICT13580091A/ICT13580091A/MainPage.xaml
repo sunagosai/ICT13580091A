@@ -3,29 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ICT13580091A"
              x:Class="ICT13580091A.MainPage"
-             BackgroundColor="Teal"
+             BackgroundColor="#004D40"
              Padding="20,20,20,20">
     <ScrollView>
         <StackLayout
-            BackgroundColor="Aqua"
+            BackgroundColor="#F5F5F5"
             Orientation="Vertical">
             <Label
                 Text="Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello world"
-                BackgroundColor="Yellow"
+                BackgroundColor="#26A69A"
                 TextColor="Blue"
                 LineBreakMode="TailTruncation"
                 x:Name="firstNameLabel"/>
             <Label
                 Text="Sopita Maneewan"
-                BackgroundColor="Fuchsia"
+                BackgroundColor="#4DB6AC"
                 x:Name="lastNameLabel"/>
+            <Label
+                Text="ICT Business"
+                BackgroundColor="#80CBC4"
+                x:Name="lastNameLabel2"/>
+            <Label
+                Text="Visual Studio"
+                BackgroundColor="#B2DFDB"
+                x:Name="lastNameLabel3"/>
             <Entry
                 Placeholder="กรุณากรอกชื่อ"
                 Keyboard="Text"
                 x:Name="fristNameEntry"/>
             <Button
                 Text="ok"
-                BackgroundColor="Silver"
+                
+                BackgroundColor="#795548"
                 x:Name="okButton"/>
             
             <DatePicker/>

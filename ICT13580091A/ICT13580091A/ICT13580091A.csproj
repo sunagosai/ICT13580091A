@@ -47,9 +47,39 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MenuPage.xaml.cs">
+      <DependentUpon>MenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="myPage1.xaml.cs">
+      <DependentUpon>myPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="myPage2.xaml.cs">
+      <DependentUpon>myPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="myPage3.xaml.cs">
+      <DependentUpon>myPage3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavPage1.xaml.cs">
+      <DependentUpon>NavPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavPage2.xaml.cs">
+      <DependentUpon>NavPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavPage3.xaml.cs">
+      <DependentUpon>NavPage3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StackPage.xaml.cs">
       <DependentUpon>StackPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabPage1.xaml.cs">
+      <DependentUpon>TabPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabPage2.xaml.cs">
+      <DependentUpon>TabPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabPage3.xaml.cs">
+      <DependentUpon>TabPage3.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +120,66 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AbsolutePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="myPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="myPage2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="myPage3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NavPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NavPage2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NavPage3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TabPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TabPage2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TabPage3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MenuPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
